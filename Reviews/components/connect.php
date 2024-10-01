@@ -7,7 +7,7 @@
    $conn = new PDO($db_name, $db_user_name, $db_user_pass);
 
    function create_unique_id(){
-      $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      $characters = 'key';
       $characters_lenght = strlen($characters);
       $random_string = '';
       for($i = 0; $i < 20; $i++){
